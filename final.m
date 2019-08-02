@@ -5,7 +5,7 @@ tic
 %close all;
 %clc
     %ratio=zeros(3,0);
-I=imresize(imread('2018-08-05-101459.jpg'),[300,300]);
+I=imresize(imread('image/path'),[300,300]);
 %imshow(I)
 s=size(I);
 %%%%%%%%%Convert RGB image to L*a*b*%%%%%%%%%%
